@@ -250,12 +250,12 @@ func main() {
 	fmt.Println(consoleLeftMargin + "|_|*|*|*|_|")
 	fmt.Println(consoleLeftMargin + "|_|_|_|_|_|")
 	fmt.Println("")
-	fmt.Println("ng Conway's implementation using engo engine.")
+	fmt.Println("Golang Conway's GOL implementation using engo engine.")
 	fmt.Println("Author: @umarquez")
 	fmt.Println("")
 
 	opts := engo.RunOptions{
-		Title:      "ng ",
+		Title:      "Conway's Game of Life",
 		Width:      ScreenWidth,  // 85 cols
 		Height:     ScreenHeight, // 85 rows
 		Fullscreen: false,
